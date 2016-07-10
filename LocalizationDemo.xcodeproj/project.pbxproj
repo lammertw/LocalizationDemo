@@ -79,6 +79,7 @@
 			buildPhases = (
 				2F8727711D326CBE00213A97 /* Sources */,
 				2F8727721D326CBE00213A97 /* Frameworks */,
+				2F1AE7931D32B12300226CB8 /* Localize */,
 				2F8727731D326CBE00213A97 /* Resources */,
 			);
 			buildRules = (
@@ -137,6 +138,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F1AE7931D32B12300226CB8 /* Localize */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Localize;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./mergegenstrings.py LocalizationDemo";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2F8727711D326CBE00213A97 /* Sources */ = {
