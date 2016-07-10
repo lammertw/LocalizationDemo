@@ -21,10 +21,14 @@ class ViewController: UIViewController {
             print(CustomLocalizedString("day\(day)"))
         }
 
-let place = "CocoaheadsNL Meetup"
-let when = NSDateFormatter.localizedStringFromDate(NSDate(), dateStyle: .LongStyle, timeStyle: .NoStyle)
-let format = NSLocalizedString("Let's go to %@ on %@", comment: "Printing where we go at which date")
-print(String.localizedStringWithFormat(format, place, when))
+        let place = "CocoaheadsNL Meetup"
+        let when = NSDateFormatter.localizedStringFromDate(NSDate(), dateStyle: .LongStyle, timeStyle: .NoStyle)
+        let format = NSLocalizedString("Let's go to %@ on %@", comment: "Printing where we go at which date")
+        print(String.localizedStringWithFormat(format, place, when))
+
+
+        let transfers = 3
+        print(String.localizedStringWithFormat(DictLocalizedString("%d transfers"), transfers))
     }
 
     override func didReceiveMemoryWarning() {

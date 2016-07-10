@@ -1,2 +1,6 @@
 /* Title for the button to buy an item from the store */
 "Buy" = "Koop";
+
+/* Printing where we go at which date */
+"Let's go to %@ on %@" = "Let's go to %1$@ on %2$@";
+

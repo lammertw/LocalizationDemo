@@ -11,3 +11,8 @@ import Foundation
 func CustomLocalizedString(key: String) -> String {
     return NSBundle.mainBundle().localizedStringForKey(key, value: key, table: "CustomLocalizable")
 }
+
+// takes the localization from the localization dictionary. Using this function prevents the generation of strings
+func DictLocalizedString(key: String) -> String {
+    return NSBundle.mainBundle().localizedStringForKey(key, value: key, table: nil)
+}
