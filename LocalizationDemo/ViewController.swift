@@ -20,6 +20,11 @@ class ViewController: UIViewController {
         for day in 0 ..< 7 {
             print(CustomLocalizedString("day\(day)"))
         }
+
+let place = "CocoaheadsNL Meetup"
+let when = NSDateFormatter.localizedStringFromDate(NSDate(), dateStyle: .LongStyle, timeStyle: .NoStyle)
+let format = NSLocalizedString("Let's go to %@ on %@", comment: "Printing where we go at which date")
+print(String.localizedStringWithFormat(format, place, when))
     }
 
     override func didReceiveMemoryWarning() {
