@@ -1,0 +1,14 @@
+/* 
+  CustomLocalizable.strings
+  LocalizationDemo
+
+  Created by Lammert Westerhoff on 10/07/16.
+  Copyright © 2016 Paoapps. All rights reserved.
+*/
+"day0" = "Monday";
+"day1" = "Tuesday";
+"day2" = "Wednesday";
+"day3" = "Thursday";
+"day4" = "Friday";
+"day5" = "Saturday";
+"day6" = "Sunday";

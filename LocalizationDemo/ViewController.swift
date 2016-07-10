@@ -16,6 +16,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
 
         buyButton.setTitle(NSLocalizedString("Buy", comment: "Title for the button to buy an item from the store"), forState: .Normal)
+
+        for day in 0 ..< 7 {
+            print(CustomLocalizedString("day\(day)"))
+        }
     }
 
     override func didReceiveMemoryWarning() {
